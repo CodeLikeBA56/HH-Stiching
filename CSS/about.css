@@ -1,0 +1,31 @@
+/* About Styles */
+.about {
+    color: #fff;
+    text-align: center;
+    background: #333;
+}
+
+.about p {
+    margin: auto;
+    margin-top: 0;
+    padding: 2rem 0;
+    max-width: 70rem;
+    font-size: 1.3rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    border: 1px solid red;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #f7c08a;
+}

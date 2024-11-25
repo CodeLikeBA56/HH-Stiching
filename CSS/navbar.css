@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+}
+
+body {
+    background-color: #010101;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  padding: 1rem 0;
+  font-size: 2.5rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform .5s ease-in-out;
+    background: transparent;
+    border-bottom: .5px solid black;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.navbar .logo {
+  display: flex;
+}
+
+.navbar .logo a {
+  font-size: 1.6rem;
+  color: black;
+  margin-left: 12px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-links {
+  display: flex;
+  gap: 24px;
+  padding-inline: 24px;
+}
+
+.menu-links a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  padding: 8px 16px;
+}
+.menu-links a:hover {
+  text-decoration: underline;
+}
+
+.menu-btn {
+  font-size: 32px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 53rem) {
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}

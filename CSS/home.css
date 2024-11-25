@@ -1,0 +1,41 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #222;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    padding: 120px 0;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 13px auto;
+}
+
+.fabric-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    margin: 50px auto 0;
+}
+
+.fabric-list li {
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #0e0e0e7e;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
