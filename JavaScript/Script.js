@@ -14,13 +14,13 @@
 // });
 
 const products = [
-    { image: '../Assets/item-1.JPG' },
-    { image: '../Assets/item-2.JPG' },
-    { image: '../Assets/item-3.JPG' },
-    { image: '../Assets/item-4.JPG' },
-    { image: '../Assets/item-5.JPG' },
-    { image: '../Assets/item-6.JPG' },
-    { image: '../Assets/item-7.JPG' },
+    { image: '../Assets/item-1.jpg' },
+    { image: '../Assets/item-2.jpg' },
+    { image: '../Assets/item-3.jpg' },
+    { image: '../Assets/item-4.jpg' },
+    { image: '../Assets/item-5.jpg' },
+    { image: '../Assets/item-6.jpg' },
+    { image: '../Assets/item-7.jpg' },
 ];
 
 const product_section = document.querySelector('.product-list');
