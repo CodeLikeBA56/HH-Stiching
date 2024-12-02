@@ -7,7 +7,6 @@
     background-color: #FBAB7E;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     padding: 120px 0;
-    border: 2px solid red;
 }
 
 .home-content h1 {
@@ -63,3 +62,38 @@
     padding: 8px;
     border-radius: 18px;
 }
+
+@media (max-width: 767px) {
+    .home {
+        height: max-content;
+        padding-bottom: 40px;
+    }
+    .content-detail {
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+    }
+  
+    .home-content h1 {
+        font-size: 28px;
+    }
+    .home-content p {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    .content-detail {
+        gap: 20px;
+    }
+    .content-detail .fabric-list {
+        width: 100%;
+        justify-content: center;
+    }
+    .about p {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+  }

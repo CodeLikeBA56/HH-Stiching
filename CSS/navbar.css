@@ -68,19 +68,16 @@ h2 {
   text-decoration: underline;
 }
 
-.menu-btn {
-  font-size: 32px;
-  color: white;
-  display: none;
-  cursor: pointer;
-}
-
-@media (max-width: 53rem) {
-  .menu {
-    display: none;
+@media (max-width: 767px) {
+  .navbar .logo a {
+    font-size: 15px;
+    padding: 0px 0px;
+    margin-left: 0;
   }
-
-  .menu-btn {
-    display: block;
+  .menu-links {
+    gap: 5px;
+  }
+  .menu-links a {
+    font-size: 17px;
   }
 }
