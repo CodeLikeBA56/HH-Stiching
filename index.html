@@ -65,6 +65,33 @@
         <p>Founded to bring timeless tradition and modern style together, we offer a range of premium fabrics and readymade suits, making you look and feel your best.</p>
     </section>
 
-    <script src="JavaScript/Script.js"></script>
+    <script>
+        const products = [
+            { image: '../Assets/item-1.JPG' },
+            { image: '../Assets/item-2.JPG' },
+            { image: '../Assets/item-3.JPG' },
+            { image: '../Assets/item-4.JPG' },
+            { image: '../Assets/item-5.JPG' },
+            { image: '../Assets/item-6.JPG' },
+            { image: '../Assets/item-7.JPG' }
+        ];
+
+        const product_section = document.querySelector('.product-list');
+
+        products.forEach(item => {
+            const div = document.createElement('div');
+            div.classList.add('product-item');
+
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = "Product Image";
+            img.style.objectFit = "contain";
+            img.style.width = "100%";
+            img.style.height = "100%";
+
+            div.appendChild(img);
+            product_section.appendChild(div);
+        });
+    </script>
   </body>
 </html>
